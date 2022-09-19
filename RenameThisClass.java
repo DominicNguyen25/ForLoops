@@ -11,8 +11,12 @@ public class RenameThisClass
         int i = 10;
         float f = 5;
         f = i + f;
+        boolean flag = true;
+        flag = !flag;
         
-        
-        System.out.println("Hello World!");
+        while(i<10) {
+        System.out.println(i++);
+    }
+        System.out.println(f);
     }
 }

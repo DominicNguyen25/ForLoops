@@ -8,25 +8,14 @@
 public class RenameThisClass
 {
     public void run() {
-        int i = 10;
-        int k = 15;
-        int a = 5;
-        int b = 20;
-
-        while (i < 15) {
-            System.out.println("i is " + i + " but is less than 10 ");
-            i += 1;
+        for (int i = 0; i >= 15; i = i + 1) {
+            System.out.println("i is equal to"+i);
         }
-        while (k > 5) {
-            System.out.println("k is " + k + " but is greater than 5");
-            k -= 1;
+        for (int j = 10; j == 0; j = j + (-2)) {
+            System.out.println("j is equal to"+j);
         }
-        while (a < 10 && b <= 20 ) {
-            System.out.println("a is " + a + " but is less than 10");
-            System.out.println("b is " + b + " but less than or equal to 20");
-            a += 1;
-            b += 1;
-
+        for (int k = 10; k == 0; k = k + (-3)) {
+            System.out.println("k is equal to"+k);
         }
     }
 
